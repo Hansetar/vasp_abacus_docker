@@ -4,13 +4,10 @@ vasp install script 一键安装脚本，
 
 由于镜像过大，和网络原因，上传dockerhub失败，并且github的actions的磁盘容量不够，没法利用这个编译推送（至少得60G的磁盘容量）
 
-所以是在本地编译出docker镜像，并且上传到百度网盘中（[下载链接](https://pan.baidu.com/s/1gHhqBU5xQxIoScm3xSjSYQ )） 提取码：uway 
+所以是在本地编译出docker镜像，并且上传到百度网盘中（[下载链接]()） 提取码：
 百度链接：
 
-通过百度网盘分享的文件：han_sci_cal.tar
-链接：https://pan.baidu.com/s/1gHhqBU5xQxIoScm3xSjSYQ 
-提取码：uway 
---来自百度网盘超级会员V1的分享
+
 
 ## 部署
 
