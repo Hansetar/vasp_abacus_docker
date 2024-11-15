@@ -20,6 +20,23 @@ if [ ! -d "$dir_src" ]; then
 fi
 export dir_src
 
+sudo apt-get update 
+sudo apt-get upgrade -y 
+sudo DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+    cmake pkg-config build-essential wget rsync \
+    python3 \
+    python3-pip \
+    python3-numpy \
+    python3-scipy \
+    python3-matplotlib \
+    gfortran \
+    liblapack-dev \
+    libblas-dev \
+    gcc g++  gfortran vim sed make unzip fonts-dejavu \
+    libopenblas-openmp-dev liblapack-dev libscalapack-mpi-dev libelpa-dev libfftw3-dev libcereal-dev libxc-dev g++ make cmake bc git pkgconf \
+    libcereal-dev  build-essential
+
+
 
 # 复制必要的文件到工作目录
 cp  ./vasp.6.4.2.tgz $dir_src

@@ -9,7 +9,7 @@ vasp install script 一键安装脚本，
 
 
 
-## 部署
+## 部署docker镜像
 
 
 
@@ -66,6 +66,22 @@ atomkit_0.9.0
 建议将vasp的赝势库
 
 分别映射或者复制（需要自行建立文件夹）到`/vasp/pot/LDA`  `/vasp/pot/PBE` `/vasp/pot/PBE` 可以直接被vaspkit调用，默认为PEB赝势
+
+# 使用一键部署脚本（本地编译）
+也可以使用一键部署代码，使用脚本更新过慢时自行更换镜像源
+
+```
+./install_vasp.sh [工作目录]
+```
+
+vasp6.4.2(自行下载)
+
+
+环境（脚本中会自动下载，如果遇到网络问题，先自行下载，然后放到脚本同目录下，注释相关下载部分即可。
+
+l_BaseKit_p_2024.2.1.100_offline.sh
+
+l_HPCKit_p_2024.2.1.79_offline.sh
 
 
 
